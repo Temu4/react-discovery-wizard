@@ -71,8 +71,8 @@
           justify-content: center;
   margin: 0em 0em;
   padding: 1.14285714em 2em;
-  background: #FFFFFF;
-  color: rgba(0, 0, 0, 0.87);
+  background: #1B1C1D;
+  color: #FFFFFF;
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: 0em;
@@ -93,7 +93,7 @@
   top: 50%;
   right: 0%;
   border: medium none;
-  background-color: #FFFFFF;
+  background-color: #1B1C1D;
   width: 1.14285714em;
   height: 1.14285714em;
   border-style: solid;
@@ -147,7 +147,7 @@
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.92857143em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #FFFFFF;
 }
 .ui.steps .step > .description {
   width: 100%;
@@ -339,8 +339,8 @@
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #F9FAFB;
-  color: rgba(0, 0, 0, 0.8);
+  background: #1B1C1D;
+  color: #21BA45;
 }
 
 /* Link Down */
@@ -348,24 +348,24 @@
 .ui.steps .link.step:active,
 .ui.steps a.step:active::after,
 .ui.steps a.step:active {
-  background: #F3F4F5;
-  color: rgba(0, 0, 0, 0.9);
+  background: #1B1C1D;
+  color: #2185D0;
 }
 
 /* Active */
 .ui.steps .step.active {
   cursor: auto;
-  background: #F3F4F5;
+  background: #1B1C1D;
 }
 .ui.steps .step.active:after {
-  background: #F3F4F5;
+  background: #1B1C1D;
 }
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #21BA45;
 }
 .ui.ordered.steps .step.active:before,
 .ui.steps .active.step .icon {
-  color: rgba(0, 0, 0, 0.85);
+  color: #21BA45;
 }
 
 /* Active Arrow */
@@ -388,8 +388,8 @@
 .ui.steps a.active.step:hover::after,
 .ui.steps a.active.step:hover {
   cursor: pointer;
-  background: #DCDDDE;
-  color: rgba(0, 0, 0, 0.87);
+  background: #1B1C1D;
+  color: #21BA45;
 }
 
 /* Completed */
@@ -401,16 +401,16 @@
 /* Disabled */
 .ui.steps .disabled.step {
   cursor: auto;
-  background: #FFFFFF;
+  background: #1B1C1D;
   pointer-events: none;
 }
 .ui.steps .disabled.step,
 .ui.steps .disabled.step .title,
 .ui.steps .disabled.step .description {
-  color: rgba(40, 40, 40, 0.3);
+  color: rgba(88, 88, 92, 0.8);
 }
 .ui.steps .disabled.step:after {
-  background: #FFFFFF;
+  background: #1B1C1D;
 }
 
 
